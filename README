@@ -1,0 +1,18 @@
+Team Members:
+Shubhanshu Yadav : sy2511
+Vaibhav Jagannathan : vj2192
+
+
+
+
+
+Files:
+html/  ------- /var/www/html contains all files shown by the lamp-server
+	index.php ------ Main webpage
+	play.php ------ webpage for playing the Flash and HTML5 videos
+	stream.php ------ webpage for hosting the live stream 
+	S3.php ------- php class with api for interacting with the s3 bucket
+jwplayer/ ----- folder containing files for jwplayer
+
+Setup.java is JAVA code to perform the initial setup .... ie. set up a s3 bucket, ec2 instances, cloudfront distributions.
+PHP code on the lamp-server running on the ec2 instance handles the remaining things.
